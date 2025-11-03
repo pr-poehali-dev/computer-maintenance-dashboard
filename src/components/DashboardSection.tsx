@@ -412,11 +412,9 @@ const DashboardSection = () => {
           </div>
         </CardContent>
       </Card>
-    </div>
 
     <div className="grid gap-4 lg:grid-cols-2">
       <UserPermissionsCard />
-      
       <Card>
         <CardHeader>
           <CardTitle>Быстрые действия</CardTitle>
@@ -442,6 +440,7 @@ const DashboardSection = () => {
         </CardContent>
       </Card>
     </div>
+  </div>
   );
 };
 
